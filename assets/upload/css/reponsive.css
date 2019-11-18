@@ -1,0 +1,29 @@
+@media (min-width: 1200px){
+	#header-area{
+	    padding-left: 260px;
+	}
+	#main-content{
+	    padding-left: 260px;
+	}
+}
+@media (min-width: 1024px){
+	#background-login .login-area{
+		width: 800px;
+	}
+}
+@media (min-width: 576px){
+	#vieccanlam .modal-dialog{
+		max-width: 90%;
+	}
+	#background-login .login-area .main-login .login-right .login-with ul li{
+	    display: block;
+	}
+	#add-booking .select-booking-date ul li{
+	    max-width: 200px;
+	}
+}
+@media (max-width: 576px){
+	.hidden-mobile{
+		display: none;
+	}
+}

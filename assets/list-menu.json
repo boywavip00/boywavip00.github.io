@@ -1,0 +1,34 @@
+[
+    {
+        "link":"/",
+        "icon": "fas fa-th",
+        "title": "Thông tin chung"
+    },
+    {
+        "link":"room-map",
+        "icon": "fas fa-building",
+        "title": "Sơ đồ phòng"
+    },
+    {
+        "link":"khach-le",
+        "icon": "fas fa-user-friends",
+        "title": "Khách lẻ"
+    },
+    {
+        "link":"khach-le",
+        "icon": "fas fa-users",
+        "title": "Khách đoàn",
+        "childmenu" : [
+            {
+                "link":"room-map",
+                "icon": "fas fa-user-plus",
+                "title": "Tạo đoàn"
+            },
+            {
+                "link":"khach-le",
+                "icon": "fas fa-user-plus",
+                "title": "Tạo đoàn 2"
+            }
+        ]
+    }
+]
